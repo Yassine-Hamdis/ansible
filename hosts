@@ -2,6 +2,9 @@
 188.166.45.13
 209.38.43.72
 
+[webserver]
+x:x:x:x
+
 [nexus_server:vars]
 ansible_user=root
 ansible_ssh_private_key_file=/home/yassine/.ssh/id_rsa
