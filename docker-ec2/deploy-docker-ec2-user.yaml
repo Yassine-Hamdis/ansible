@@ -49,10 +49,10 @@
   tasks:
     - name: Copy docker compose 
       copy:
-        src: /Users/nana/bootcamp-java-mysql-project/docker-compose-full.yaml
+        src: /Users/info/bootcamp-java-mysql-project/docker-compose-full.yaml
         dest: /home/ec2-user/docker-compose.yaml
       docker_login:
-        username: nanatwn
+        username: username
     - name: Docker login
         password: "{{docker_password}}"
     - name: Start containers from compose

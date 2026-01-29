@@ -13,4 +13,4 @@
         src: ~/demo-projects/K8s-Files/nginx-config.yaml
         state: present
         namespace: my-app
-#on terminal : K8S_AUTH_KUBECONFIG= ~/.kube/configfile
+#on terminal : K8S_AUTH_KUBECONFIG= ~/.kube/configfile. this is for localhost to connect to k8s cluster
